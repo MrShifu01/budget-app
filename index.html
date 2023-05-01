@@ -1,0 +1,46 @@
+<!-- 
+    Make use of sessionStorage
+
+    Create an incomme object where you can add: Name (string) like salary: Amount as a number: recurring or not
+
+    Create 5 objects to indicate income from 5 sources
+
+    Create 5 different objects to indicate 5 different expenses
+
+    Using a prompt box, display the expenses items and let the user add
+    another entry.
+
+    Display the total amount of disposable income (income minus expenses)
+
+    Using a prompt box, ask the user how much of their disposable income
+    they would like to put into savings.
+
+    Finally, create an alert to display the total amount of disposable income left. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgeting Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>---Budget Calculator---</h1>
+    <p>Click on one of the buttons to view your incomes, expenses or you disposable income.</p>
+    <p>There you will be able to add an income or expense to your list!</p>
+    <!-- Navigation to quickly view the different items -->
+    <header>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="list-items" id="income-nav"><a href="#" class="nav-link">View or Add Income</a></li>
+                <li class="list-items" id="expense-nav"><a href="#" class="nav-link">View or Add Expenses</a></li>
+                <li class="list-items" id="disposable-income-nav"><a href="#" class="nav-link">Disposable Income</a></li>
+            </ul>
+        </div>
+    </header>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

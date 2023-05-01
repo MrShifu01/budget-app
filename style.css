@@ -1,0 +1,70 @@
+/* Importing a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+
+/* Setting up standard box-sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Setting up stardard margins and font-family */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Doppio", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#13747D, #0ABFBC);
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: #29221F;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+p {
+    color:#FCF7C5 ;
+}
+
+
+.nav-list {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list-items {
+    border: 1px solid #29221F;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: #0ABFBC;
+    box-shadow: 5px 5px 5px 0 #29221F;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.list-items:hover {
+    opacity: 0.75;
+}
+
+.nav-link {
+    
+    text-decoration: none;
+    font-weight: 900;
+    font-size: larger;
+    margin-right: 40px;
+    color: #FCF7C5;
+    cursor: pointer;
+    margin: 3px 30px;
+}
