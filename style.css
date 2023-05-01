@@ -18,21 +18,24 @@ body {
     background: linear-gradient(#13747D, #0ABFBC);
 }
 
+/* Styling the list */
 ul {
     list-style: none;
 }
 
+/* Styling the main heading of the site */
 h1 {
     color: #29221F;
     font-style: italic;
     margin-bottom: 50px;
 }
 
+/* Styling the instruction paragraphs */
 p {
     color:#FCF7C5 ;
 }
 
-
+/* Styling the navigation list */
 .nav-list {
     width: 100%;
     max-width: 1100px;
@@ -44,6 +47,7 @@ p {
     flex-wrap: wrap;
 }
 
+/* Styling the individual navigation Items */
 .list-items {
     border: 1px solid #29221F;
     border-radius: 10px;
@@ -54,10 +58,12 @@ p {
     cursor: pointer;
 }
 
+/* Styling the hover feaure of the nav items */
 .list-items:hover {
     opacity: 0.75;
 }
 
+/* Styling the nav links */
 .nav-link {
     
     text-decoration: none;
